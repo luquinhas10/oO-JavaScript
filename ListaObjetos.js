@@ -14,10 +14,13 @@ cliente.enderecos = [
 },
 ];
 
-const chavesDoObjeto = Object.keys(cliente);
+cliente.enderecos.push({
+    rua: "R. joseph ladder",
+    numero:404,
+    apartamento:false,
+});
 
-console.log(chavesDoObjeto);
-
-if(!chavesDoObjeto.includes("enderecos")){
-    console.error("erro. e necessario ter um cadastro de endereco")
-}
+const listadeApenasApartamentos = cliente.enderecos.filter(
+    (endereco) => endereco.apartamento === true
+);
+console.log(listadeApenasApartamentos);

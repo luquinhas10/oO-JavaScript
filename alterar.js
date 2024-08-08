@@ -1,15 +1,15 @@
-const Pessoa ={
-    nome:"Luma",
-    profissao:"Engenheira",
+const pessoa = {
+    nome:"luma",
+    profissao:"engenharia",
 };
 
-console.log(Pessoa.telefone);
+console.log(pessoa.telefone);
 
-Pessoa.telefone = "41 9999-9999";
+pessoa.telefone = "41 9999-99999"
 
-console.log(Pessoa.telefone);
+console.log(pessoa.telefone);
 
-Pessoa.nome = "Luma Silva";
+pessoa.nome = "luma silva"
 
-console.log(Pessoa)
+console.log(pessoa);
 

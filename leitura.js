@@ -7,7 +7,6 @@ const clienteEmString = JSON.stringify (dado);
 
 console.log(clienteEmString);
 console.log(typeof clienteEmString);
+const objetoCliente = JSON.parse(clienteEmString);
 
-const objetocliente = JSON.parse(clienteEmString);
-
-console.log(objetoCliente)
+console.log(objetoCliente);
